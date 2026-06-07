@@ -30,13 +30,12 @@ img{
     border-radius: 30px;
     box-shadow: 5px 5px 30px black;
     width: 170px;
-    text-align: center;
 }
 
 a{
     color: blue;
+    transition: 0.5s;
 }
 a:hover{
     color: red;
-    transition: 1s;
 }
