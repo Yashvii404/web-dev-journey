@@ -32,3 +32,11 @@ img{
     width: 170px;
     text-align: center;
 }
+
+a{
+    color: blue;
+}
+a:hover{
+    color: red;
+    transition: 1s;
+}
