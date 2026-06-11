@@ -1,0 +1,23 @@
+body{
+    background-color:cadetblue;
+}
+
+.Card{
+    display: flex ;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.Card1{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px black;
+    background-color: antiquewhite;
+    transition: 1s;
+}
+
+.Card1:hover{
+    transform: scale(1.05);
+}
